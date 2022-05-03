@@ -1,11 +1,20 @@
 package com.zooperman.notekeeper
 
-class DataManager {
+object DataManager {
     val courses = HashMap<String, CourseInfo>()
     val notes = ArrayList<NoteInfo>()
 
     init {
         initializeCourses()
+        initializeNotes()
+    }
+
+    private fun initializeNotes() {
+        var counter = 0
+        courses.forEach { (s, courseInfo) ->
+            ++counter
+            notes.add(NoteInfo(courseInfo, s, counter.toString()))
+        }
     }
 
     private fun initializeCourses() {

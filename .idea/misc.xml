@@ -6,6 +6,9 @@
         <entry key="..\:/NoteKeeper/app/src/main/res/layout/activity_main.xml" value="0.35778985507246375" />
         <entry key="..\:/NoteKeeper/app/src/main/res/layout/activity_note_list.xml" value="0.22" />
         <entry key="..\:/NoteKeeper/app/src/main/res/layout/content_note_list.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_note_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_note_list.xml" value="0.1" />
       </map>
     </option>
   </component>
