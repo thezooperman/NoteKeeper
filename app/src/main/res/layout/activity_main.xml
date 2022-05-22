@@ -8,17 +8,18 @@
 
     <EditText
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:inputType="textMultiLine"
-            android:gravity="start|top"
-            android:ems="10"
-            android:id="@+id/textNoteText"
-            app:layout_constraintTop_toBottomOf="@+id/textNoteTitle"
-            app:layout_constraintEnd_toEndOf="@+id/spinnerCourses"
-            app:layout_constraintStart_toStartOf="@+id/spinnerCourses"
-            android:minHeight="48dp"
-            app:layout_constraintHorizontal_bias="1.0"
-            android:hint="Note text" />
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:ems="10"
+        android:id="@+id/textNoteText"
+        app:layout_constraintTop_toBottomOf="@+id/textNoteTitle"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCourses"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCourses"
+        android:minHeight="48dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:autofillHints=""
+        android:hint="Note text" />
 
     <Spinner
             android:layout_width="0dp"
@@ -35,15 +36,16 @@
 
     <EditText
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:inputType="textMultiLine"
-            android:gravity="start|top"
-            android:ems="10"
-            android:id="@+id/textNoteTitle"
-            app:layout_constraintTop_toBottomOf="@+id/spinnerCourses"
-            android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toEndOf="@+id/spinnerCourses"
-            app:layout_constraintStart_toStartOf="@+id/spinnerCourses"
-            android:minHeight="48dp"
-            android:hint="Note title" />
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:ems="10"
+        android:id="@+id/textNoteTitle"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCourses"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCourses"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCourses"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:hint="Note title" />
 </androidx.constraintlayout.widget.ConstraintLayout>

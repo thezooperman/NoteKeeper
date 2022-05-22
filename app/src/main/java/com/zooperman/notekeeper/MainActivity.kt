@@ -1,6 +1,8 @@
 package com.zooperman.notekeeper
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Spinner
@@ -34,6 +36,28 @@ class MainActivity : AppCompatActivity() {
         if (notePosition != POSITION_NOT_SET) {
             displayNote()
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+//        return super.onCreateOptionsMenu(menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        return super.onOptionsItemSelected(item)
+        return when (item.itemId) {
+            R.id.action_next -> {
+                moveNext()
+                return true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    private fun moveNext() {
+        ++notePosition
+        displayNote()
     }
 
     private fun displayNote() {

@@ -9,6 +9,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_note_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_note_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.4322916666666667" />
       </map>
     </option>
   </component>
